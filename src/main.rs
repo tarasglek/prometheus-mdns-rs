@@ -75,7 +75,7 @@ async fn main() -> Result<(), main_error::MainError> {
                 last_seen: Instant::now(),
             };
 
-            println!("adding {} {}", hostname, addr);
+            // println!("adding {} {}", hostname, addr);
 
             let start_count = services.len();
             services.insert(service.addr, service);
